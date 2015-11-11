@@ -1,0 +1,29 @@
+Let's make a simple game!
+
+How it works (the basics):
+	- there is a box randomly moving around
+		* pops up in random places
+	- user has to click on it before it moves again
+	- if user manages to do this, the rate at which the box disappears and reappears increases, thus making the game more challenging
+
+Other things to think of:
+	- time limit to click on the box
+		* this is how you make the game fun!
+		* TOTAL time limit
+			- ex. 1 minute, constantly counting down
+			- game is keeping track of the score the whole time
+	- give user a difficulty rating each round
+		* only increase the difficulty every x number of rounds?
+	- Multiple boxes that appear, have to click all of them to finish a round
+
+Todo list:
+	- get a box to randomly move around the screen on a certain time interval
+		* randomly select a top left coordinate that is within the board
+		* draw a rectangle there
+
+		*** PROBLEM ***
+		How do we get the other rectangles to disappear?
+
+		* add a time interval, then keep drawing stuff
+		
+	- get it so that when we click that box, something will happen
