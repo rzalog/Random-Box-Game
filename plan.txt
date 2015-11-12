@@ -25,5 +25,12 @@ Todo list:
 		How do we get the other rectangles to disappear?
 
 		* add a time interval, then keep drawing stuff
-		
+
 	- get it so that when we click that box, something will happen
+
+	- high score table
+		* press key to show table
+		* run showHighScoreTable function
+			- fills screen with BGCOLOR
+			- reads some text file
+			- puts the info onto the screen
